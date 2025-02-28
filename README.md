@@ -2,6 +2,12 @@
 
 This repository contains the fixes for the type compatibility issues in the ParameterOptimization component of the Liquid Trading Platform.
 
+## Important: How to Apply These Changes
+
+Due to large files in the main repository that exceed GitHub's file size limits, we were unable to push the changes directly to the main repository. Instead, we've created this separate repository with just the files that need to be updated.
+
+**Please see [INSTRUCTIONS.md](INSTRUCTIONS.md) for detailed instructions on how to apply these changes to the main repository.**
+
 ## Accomplishments
 
 1. Fixed type compatibility issues between local OptimizationResult type and imported OptimizationResult type:
@@ -57,8 +63,7 @@ This repository contains the fixes for the type compatibility issues in the Para
 
 - `frontend/src/components/trading/ParameterOptimization.tsx`: The fixed component
 - `TROUBLESHOOTING.md`: Documentation of the issues fixed and remaining
-- `cline_docs/currentTask.md`: Updated task tracking
-- `cline_docs/projectRoadmap.md`: Updated project roadmap
-- `SUMMARY.md`: Summary of the changes made
 - `PR_DESCRIPTION.md`: Description for the pull request
+- `SUMMARY.md`: Summary of the changes made
+- `INSTRUCTIONS.md`: Instructions for applying the changes to the main repository
 - `README.md`: This file 
